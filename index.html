@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resp1024.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>Feliz Aniversario</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="itens">
+            <li><a class="link" href="#">Home</a></li>
+            <li><a class="link sobre" href="#">Sobre</a></li>
+            <li><a class="link evento" href="#">Evento</a></li>
+            <li><a class="link confirme" href="#">Confirme</a></li>
+            <li><a class="link prox" href="#">Proximos Eventos</a></li>
+        </ul>
+    </nav>
+    <div class="imagens">
+        <img id="estrelas" src="img/estrelas.png" alt="stars">
+        <img id="alan" src="img/anão sem fundo.png" alt="alan">
+        <img id="confetes" src="img/confetes.png" alt="confetes">
+        <img id="linha" src="img/linhacurva.png" alt="linha curva">
+        <img id="celebrando" src="img/celebrando.png" alt="texto celebrando">
+        <img id="ano" src="img/365.png" alt="texto 365 dias">
+        <img id="faixa-azul" src="img/azul.png" alt="caixa azul">
+        <img id="faixa-rosa" src="img/faixarosa.png" alt="faixa rosa">
+        <a id="confirmar" target="_blank" href="https://discord.gg/rUBqBkHz4S">Confirme</a>
+        <p id="data">Dia 18/07/2023 ás 19h</p>
+        <img id="herpes" src="img/camisinha.png" alt="prevenção">
+        <p id="apoio">Este site apoia o uso de preservativos e alerta sobre a HERPES.</p>
+        <!-- modais -->
+        <div class="modalsobre">
+            <div class="modal-content">
+                <h2>Quem é Alan Santana?</h2>
+                <img src="img/alan tucano.jpeg" alt="">
+                <p>Alan, mais conhecido como Lambida, é este rapaz adoravel, amante dos animais e que tem a lingua presa. <br>
+                    Nasceu no ano de 2000 fruto de um acidente entre seus pais, enquanto sua mãe fugia de um tiroteio,
+                    tropeçou e caiu com a xereca no pau de um homem que havia sido baleado na cabeça. <br>
+                </p>
+                <h3>Vamos lembrar acontecimentos que marcam o dia 18/07</h3>
+                <P><strong>1925-</strong> Adolf Hitler publica a Mein Kampf.</P>
+                <P><strong>1944-</strong> Em Buenos Aires, uma explosão destrói um edifício onde várias organizações judaicas <br> 
+                    mantinham a sua sede, matando 85 pessoas e ferindo outras 300.</P>
+                    <p><strong>1998-</strong> Nascimento de Luísa Sonza</p>
+                <P><strong>2019-</strong> Um incêndio criminoso em um estúdio de animação em Quioto, no Japão, mata pelo menos
+                     33 pessoas.</P>
+                <button class="close-modal">Entendi</button>
+            </div>
+          </div>
+          <div class="overlay"></div>
+<!-- modal evento -->
+          <div class="modalevento">
+            <div class="modal-content">
+                <h2>O evento vai acontecer da seguinte maneira</h2>
+                <p>Todos que confirmarem presença, entrarão em call no dia 22 de julho para assistir nosso amigo
+                Lambida jogar um game criado por mim. caso ele consiga zerar o game, ele ganha um jogo bom, caso contrario 
+                ele vai ganhar jogos de hentai com bastante futanary.</p>
+                <br>
+                <h3>Mecanica do Jogo</h3>
+                <p>Como todos sabemos, a pergunta que Lambida sempre faz ao entrar em qualquer jogo é "COMO QUE ANDA?"
+                    pensando nisso, eu desenvolvi um jogo simples, que faz com que as teclas de movimentação mudem e 
+                    ele precise descobrir as novas antes de morrer.
+                </p>
+                <a class="botao" href="games/Spaceshot_aleatorio.zip" download="Teclas Aleatorias"><button id="button1">Modo <br> Aleatorio</button></a>
+                <a href="games/Spaceshot_invertido.zip" download="Teclas Invertidas"><button id="button1">Modo <br> Inverte</button></a>
+                <p>Baixem e se Divirtam</p>
+                <button class="close-modalevento">Entendi</button>
+            </div>
+          </div>
+          <div class="overlayevento"></div>
+
+<!-- modal confirme -->
+<div class="modalconfirme">
+    <div class="modal-content">
+        <h2>Para confirmar presença clique no ícone abaixo</h2>
+        <a class="discord" target="_blank" href="https://discord.gg/rUBqBkHz4S"><img src="img/logo discord.png" alt=""></a>
+        <p>Você será redirecionado para o discord do evento</p>
+        <button class="close-modalconfirme">Pronto</button>
+    </div>
+  </div>
+  <div class="overlayconfirme"></div>
+
+<!-- Modal Proximos Eventos -->
+<div class="modalprox">
+    <div class="modal-content">
+        <h2>PROXIMOS EVENTOS PARA VOCÊ FICAR LIGADO</h2>
+        <p><strong>ANA -</strong> 02/08/2023 23 anos</p>
+        <p><strong>CASTIEL -</strong> 21/09/2023 23 anos</p>
+        <p><strong>DIEGO -</strong> 20/12/2023 22 anos</p>
+        <p><strong>EZEKYEL -</strong> 01/04/2024 23 anos</p>
+        <button class="close-modalprox">Pronto</button>
+    </div>
+  </div>
+  <div class="overlayprox"></div>
+
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>

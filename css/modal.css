@@ -1,0 +1,233 @@
+/* Estilo do modal */
+.modalsobre {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(210, 197, 205);
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .modalsobre h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+
+  .modalsobre p {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Estilo do fundo embassado */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(149, 71, 71, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 9998;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+  }
+  
+  /* Estilo para mostrar o modal e o fundo embassado quando o modal estiver aberto */
+  .modalsobre.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* modal evento */
+
+  /* Estilo do modal */
+.modalevento {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(210, 197, 205);
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modalevento h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.modalevento p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#button1 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  border: solid 1px;
+  background-color: rgb(195, 79, 151);
+}
+
+#button1:hover {
+  background-color: rgb(187, 78, 147);
+}
+
+/* Estilo do fundo embassado */
+.overlayevento {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(149, 71, 71, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+/* Estilo para mostrar o modal e o fundo embassado quando o modal estiver aberto */
+.modalevento.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlayevento.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+/* modal evento */
+
+/* Estilo do modal */
+.modalconfirme {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(210, 197, 205);
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+  
+.modalconfirme h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+  
+.modalconfirme p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+  
+  /* Estilo do fundo embassado */
+.overlayconfirme {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(149, 71, 71, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+  
+/* Estilo para mostrar o modal e o fundo embassado quando o modal estiver aberto */
+
+.modalconfirme.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+  
+.overlayconfirme.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.discord img {
+  width: 5rem;
+  padding-left: 45%;
+}
+
+/* modal proximos eventos */
+
+/* Estilo do modal */
+.modalprox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(210, 197, 205);
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+  
+.modalprox h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+  
+.modalprox p {
+  font-family: 'Montserrat', sans-serif;
+}
+  
+  /* Estilo do fundo embassado */
+.overlayprox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(149, 71, 71, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+  
+/* Estilo para mostrar o modal e o fundo embassado quando o modal estiver aberto */
+
+.modalprox.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+  
+.overlayprox.open {
+  opacity: 1;
+  pointer-events: auto;
+}

@@ -1,0 +1,118 @@
+body {
+    background: rgb(208,154,208);
+    background: radial-gradient(circle, rgba(208,154,208,1) 0%, rgba(181,120,180,1) 100%);
+}
+
+.navbar {
+    margin-left: 60rem;
+    margin-top: 5rem;
+    position: fixed;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline;
+    padding-left: 3rem;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.link:active,
+.link.active {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+#estrelas {
+    position:absolute;
+    width: 60rem;
+    margin-bottom: 50rem;
+}
+
+#alan {
+    width: 35.39rem;
+    margin-top: 7rem;
+    position: absolute;
+    z-index: 1;
+}
+
+#confetes {
+    position: absolute;
+    width: 60rem;
+    z-index: 0;
+}
+
+#linha {
+    position: absolute;
+    width: 40rem;
+    margin-top: 40rem;
+    z-index: 2;
+}
+
+#celebrando {
+    position: absolute;
+    width: 30rem;
+    margin-left: 65rem;
+    margin-top: 15rem;
+    z-index: 1;
+}
+
+#ano {
+    position: absolute;
+    width: 40rem;
+    margin-left: 64.6rem;
+    margin-top: 32rem;
+}
+
+#faixa-azul {
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 64rem;
+    margin-top: 40rem;
+}
+
+#faixa-rosa {
+    width: 16rem;
+    height: 2.5rem;
+    margin-left: 72rem;
+    margin-top: 40.2rem;
+}
+
+#confirmar {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-top: 40.9rem;
+    margin-left: -21.5rem;  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#data {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 75rem;
+    margin-top: -2.1rem;
+}
+
+#herpes {
+    position: absolute;
+    margin-top: 47.3rem;
+    transform: scaleX(-1);
+    margin-left: 9rem;
+}
+
+#apoio {
+    margin-left: 71rem;
+    margin-top: 13rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
